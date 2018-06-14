@@ -1,6 +1,4 @@
-<% provide(:title, "Help") %>
-<h1>I am going to add some Help here</h1>
-<title><%= yield(:title) %> | Ruby on Rails</title>
-<p>Wanna find me ?</p>
-<h1>This is my website </h1>
-<p> You do not need to concern this <a href="http://onepiece.wikia.com/wiki/Raftel" > Raftel</a></p>
+<% provide(:title, t(".help1")) %>
+<h1><%= t ".add_help" %></h1>
+<p><%= t ".find_me" %><%= link_to t(".home"), root_path %></p>
+
