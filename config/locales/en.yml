@@ -7,7 +7,6 @@ en:
   user_not_found: "User not found"
   log_in: "Log in"
 
-
   static_pages:
     contact:
       contact1: "Contact"
