@@ -6,6 +6,16 @@ en:
   sign_up: "Sign up"
   user_not_found: "User not found"
   log_in: "Log in"
+  invalid_login: "Invalid email or password"
+  user: "User"
+  profile: "Profile"
+  setting: "Settings"
+  about: "About"
+  remember_password: "Remember password"
+  new_user: "New user?"
+  tutorial: "Ruby on Rails Tutorial"
+  by: "by"
+  account: "Account"
 
   static_pages:
     contact:
@@ -21,6 +31,8 @@ en:
     home:
       home: "Home"
       sign_up_now: "Sign up now"
+      home_page: "This is the home page for the "
+      sample_application: "Sample Application. "
 
   users:
     new:
