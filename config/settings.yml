@@ -6,3 +6,6 @@ email:
 
 password:
   minimum : 6
+
+gravatar:
+  size : 50

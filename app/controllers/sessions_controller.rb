@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       params[:session][:remember_me] == "1" ? remember(user) : forget(user)
       redirect_to user
     else
-      flash.now[:danger] = t ("invalid_login")
+      flash.now[:danger] = t("invalid_login")
       render :new
     end
   end
