@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-
   before_save {self.email = email.downcase}
   validates :name,  presence: true, length: {maximum: Settings.name.maximum}
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
@@ -11,7 +10,7 @@ class User < ApplicationRecord
 
   def User.digest string
     cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
-                                                  BCrypt::Engine.cost
+      BCrypt::Engine.cost
     BCrypt::Password.create(string, cost: cost)
   end
 
@@ -32,5 +31,4 @@ class User < ApplicationRecord
   def forget
     update_attribute(:remember_digest, nil)
   end
-
 end
