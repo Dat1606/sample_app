@@ -11,8 +11,16 @@ Rails.application.configure do
   # just for the purpose of running a single test. If you are using a tool that
   # preloads Rails for running tests, you may have to set it to true.
   config.eager_load = false
-
-  # Configure public file server for tests with Cache-Control for performance.
+  config.action_mailer.default_url_options = { host: "localhost:3000"}
+  ActionMailer::Base.smtp_settings = {
+    address:  "smtp.gmail.com",
+    port:  "587",
+    authentication: :plain,
+    user_name:  "samsunggalaxyvip1@gmail.com",
+    password:  "dat1xt2xt",
+    domain:  "gmail.com",
+    enable_starttls_auto: true
+  }
   config.public_file_server.enabled = true
   config.public_file_server.headers = {
     'Cache-Control' => "public, max-age=#{1.hour.to_i}"

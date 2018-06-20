@@ -26,6 +26,16 @@ en:
   all_users: "All users"
   edit_user: "Edit user"
   update_your_profile: "Update your profile"
+  check_email: "Please check your email to activate your account."
+  profile_update: "Profile updated"
+  user_delete: "User deleted"
+  please_log_in: "Please log in"
+  account_not_activated: "Account not activated."
+  account_activated: "Account Activated!"
+  invalid_activation_link: "Invalid actiation link"
+  activate: "Activate"
+  hi: "Hi"
+  account_activation: "Account Activation"
 
   static_pages:
     contact:
