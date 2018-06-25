@@ -7,6 +7,7 @@ gem "bootstrap-sass", "3.3.7"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "coffee-rails", "~> 4.2"
 gem "config"
+gem "jquery-rails", "4.3.1"
 gem "jbuilder", "~> 2.5"
 gem "puma", "~> 3.11"
 gem "rubocop"
