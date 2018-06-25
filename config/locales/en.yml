@@ -42,6 +42,8 @@ en:
     home:
       home: "Home"
       sign_up_now: "Sign up now"
+      home_page: "This is the home page for the "
+      sample_application: "Sample Application. "
 
   users:
     new:

@@ -1,5 +1,4 @@
-
-ActiveRecord::Schema.define(version: 2018_06_18_101135) do
+ActiveRecord::Schema.define(version: 2018_06_18_011621) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -11,5 +10,4 @@ ActiveRecord::Schema.define(version: 2018_06_18_101135) do
     t.boolean "admin", default: false
     t.index ["email"], name: "index_users_on_email", unique: true
   end
-
 end
