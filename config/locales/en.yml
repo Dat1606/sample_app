@@ -36,6 +36,22 @@ en:
   activate: "Activate"
   hi: "Hi"
   account_activation: "Account Activation"
+  forgot_password: "Forgot password"
+  submit: "submit"
+  email_reset: "Email sent with password intructions"
+  email_not_found: "Email address not found"
+  email_reset_text: "To reset your password click the link below :"
+  email_reset_caution: "This link will exprire in two hours. \n If you did not request your password to be reset, please ignore this email."
+  password_reset: "Password reset"
+  reset_password: "Reset password"
+  confirmation: "Confirmation"
+  update_password: "Update password"
+  save_change: "Save change"
+  account_activation: "Account Activation"
+  cant_be_empty: "can't be empty"
+  password_has_been_reset: "Password has been reset."
+  password_reset_expired: "Password reset has expired."
+  invalid_user: "User is invalid . Please check your email to activate your account"
 
   static_pages:
     contact:
