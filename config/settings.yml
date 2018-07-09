@@ -9,3 +9,9 @@ password:
 
 gravatar:
   size : 50
+
+micropost:
+  length: 140
+
+picture:
+  maximum: 5
