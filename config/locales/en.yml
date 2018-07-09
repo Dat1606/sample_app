@@ -52,6 +52,15 @@ en:
   password_has_been_reset: "Password has been reset."
   password_reset_expired: "Password reset has expired."
   invalid_user: "User is invalid . Please check your email to activate your account"
+  posted: "Posted"
+  ago: "ago."
+  micropost: "Microposts"
+  micropost_created: "Micropost created!"
+  view_my_profile: "View my profile"
+  post: "Post"
+  compose_new_post: "Compose new post..."
+  micopost_feed: "Micropost Feed"
+  micropost_deleted: "Micropost deleted"
 
   static_pages:
     contact:
