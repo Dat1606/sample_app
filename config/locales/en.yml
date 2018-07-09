@@ -61,6 +61,11 @@ en:
   compose_new_post: "Compose new post..."
   micopost_feed: "Micropost Feed"
   micropost_deleted: "Micropost deleted"
+  following: "following"
+  followers: "followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  should_be_less_than_5mb: "Shoud be less than 5MB"
 
   static_pages:
     contact:

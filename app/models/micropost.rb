@@ -10,7 +10,7 @@ class Micropost < ApplicationRecord
 
     # Validates the size of an uploaded picture.
   def picture_size
-    if picture.size > Settings.micropost.maximum.megabytes
+    if picture.size > Settings.picture.maximum.megabytes
       errors.add(:picture, "should be less than 5MB")
     end
   end
