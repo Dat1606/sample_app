@@ -9,6 +9,7 @@ password:
 
 gravatar:
   size : 50
+  small_size: 30
 
 micropost:
   length: 140

@@ -47,6 +47,20 @@ before_action :admin_user, only: :destroy
     redirect_to users_url
   end
 
+  def following
+    @title = t "following"
+    @user  = User.find_by(id: params[:id])
+    @users = @user.following.order(:name).page params[:page]
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @user  = User.find_by(id: params[:id])
+    @users = @user.followers.order(:name).page params[:page]
+    render "show_follow"
+  end
+
   private
 
   def load_user
